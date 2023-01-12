@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { useColorMode } from "@chakra-ui/color-mode";
 import FullScreenSection from "./FullScreenSection";
-import { Link as AnimatedLink, animateScroll as scroll } from "react-scroll";
+import { Link as AnimatedLink, animateScroll } from "react-scroll";
 
 const greeting = "Hello, I am";
 const greetingName = "Piotr Andrzejewski";
