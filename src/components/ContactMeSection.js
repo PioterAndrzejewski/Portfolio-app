@@ -17,7 +17,7 @@ import useSubmit from "../hooks/useSubmit";
 import { useAlertContext } from "../context/alertContext";
 import basicSchema from "./schemas/basicSchema";
 
-const LandingSection = () => {
+const ContactMeSection = () => {
 	const { isLoading, response, submit } = useSubmit();
 	const { onOpen } = useAlertContext();
 
@@ -38,7 +38,7 @@ const LandingSection = () => {
 			comment: "",
 		},
 		onSubmit: async (values, actions) => {
-			submit("why does it even take an url lol", values);
+			submit("www.example.com", values);
 		},
 		validationSchema: basicSchema,
 	});
@@ -141,4 +141,4 @@ const LandingSection = () => {
 	);
 };
 
-export default LandingSection;
+export default ContactMeSection;
