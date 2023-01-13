@@ -129,7 +129,7 @@ const ContactMeSection = () => {
 								type="submit"
 								colorScheme="purple"
 								width="full"
-								disabled={isSubmitting}
+								disabled={isSubmitting || Object.keys(errors).length > 0}
 							>
 								{isLoading ? "Processing..." : "Submit"}
 							</Button>
