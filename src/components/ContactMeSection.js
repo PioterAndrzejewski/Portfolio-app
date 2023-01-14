@@ -11,6 +11,7 @@ import {
 	Select,
 	Textarea,
 	VStack,
+	Text,
 } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import useSubmit from "../hooks/useSubmit";
@@ -133,6 +134,10 @@ const ContactMeSection = () => {
 							>
 								{isLoading ? "Processing..." : "Submit"}
 							</Button>
+							<Text>
+								Note: the form is not related to the backend. API response after
+								submitting will be simulated.
+							</Text>
 						</VStack>
 					</form>
 				</Box>
