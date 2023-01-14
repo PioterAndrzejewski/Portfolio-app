@@ -9,7 +9,7 @@ const projects = [
 		description:
 			"Internal system for a company dealing in organic plant cultivation and garden design. React, Express and several additional libraries were used to create the system.",
 		getImageSrc: () => require("../images/photo1.jpg"),
-		url: "https://pioterandrzejewski.github.io/lucky-shrub.github.io/public/index.html",
+		url: "https://pioterandrzejewski.github.io/Lucky-Shrub---website-template/public/index.html",
 	},
 	{
 		title: "Architects' portfolio website",
