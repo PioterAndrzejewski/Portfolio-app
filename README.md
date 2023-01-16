@@ -27,7 +27,7 @@ After cloning the repository and installing dependencies run the app using npm s
   $ npm i
   $ npm start
   ```
-And you're ready to test the app in your browser on localhost:3000
+Now you're ready to test the app in your browser on localhost:3000
 
 ### Built With
 
