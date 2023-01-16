@@ -48,8 +48,12 @@ In addition, the header listens to page scrolling and hides when scrolling down 
 - [ ] Projects section - Project cards rendered from a static array. Don't worry, the descriptions of projects are not entirely true 
 
 - [ ] Contact-me section - Form built with chakra-ui elements, supported with Formik library and verified with Yup based schemas.
-    - [ ] useSubmit is a custom hook that is used to submit a form and simulate API call. It uses Math.random() to simulate a random success or failure. 
+    - [ ] useSubmit is a custom hook that is used to submit a form and simulate API call. It uses Math.random() to simulate a random success or failure reponse. 
     - [ ] The alerts feature uses Chakra components and context to handle the "server" response to a form submission.
+    
+ ## To-do
+The project was an exercise and has been completed.
+Project is going to be used as a base for my own portfolio website. 
     
 ## Sources
 This app is inspired by Meta-Front-End Developer Course submission project during React Advanced course. Whole course is available at Coursera. 
