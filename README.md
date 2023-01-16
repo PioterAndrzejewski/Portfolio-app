@@ -57,3 +57,4 @@ Project is going to be used as a base for my own portfolio website.
     
 ## Sources
 This app is inspired by Meta-Front-End Developer Course submission project during React Advanced course. Whole course is available at Coursera. 
+Custom hooks for API simulation were provided by the course creators.
